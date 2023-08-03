@@ -4,8 +4,8 @@ import java.io.InputStreamReader;
 
 public class HiMethod {
   public static String integerCommand(String name) {
-    if (name.equals("Вячеслав")) return "Привет, Вячеслав";
-    else return "Нет такого имени";
+    if (name.equals("Р’СЏС‡РµСЃР»Р°РІ")) return "РџСЂРёРІРµС‚, Р’СЏС‡РµСЃР»Р°РІ";
+    else return "РќРµС‚ С‚Р°РєРѕРіРѕ РёРјРµРЅРё";
   }
 
   public static void main(String[] args) {

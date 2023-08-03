@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 public class HiMethodSimple {
 
   public static String integerCommand(int number) {
-    if(number> 7) return "Ïðèâåò";
+    if(number> 7) return "ÐŸÑ€Ð¸Ð²ÐµÑ‚";
     else return "";
   }
 
