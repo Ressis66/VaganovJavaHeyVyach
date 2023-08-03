@@ -6,6 +6,6 @@ public class HiMethodSimpleTest {
 
   @Test
   void setHiMethod() {
-    assertEquals("Привет", HiMethodSimple.integerCommand(10));
+    assertEquals("РџСЂРёРІРµС‚", HiMethodSimple.integerCommand(10));
   }
 }

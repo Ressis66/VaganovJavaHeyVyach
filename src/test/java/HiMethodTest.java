@@ -15,7 +15,7 @@ public class HiMethodTest {
     return new Object[][]{
         {
             new String[]{
-                "Вячеслав"
+                "Р’СЏС‡РµСЃР»Р°РІ"
             }
         }
     };
@@ -26,7 +26,7 @@ public class HiMethodTest {
     return new Object[][]{
         {
             new String[]{
-                "Петр", "Макс"
+                "РџРµС‚СЂ", "РњР°РєСЃ"
             }
         }
     };
@@ -36,7 +36,7 @@ public class HiMethodTest {
   public void validUsernameTest(String[] usernames) {
     for (String username : usernames) {
       String valid = HiMethod.integerCommand(username);
-      Assert.assertEquals("Привет, Вячеслав", valid);
+      Assert.assertEquals("РџСЂРёРІРµС‚, Р’СЏС‡РµСЃР»Р°РІ", valid);
     }
   }
 
@@ -44,7 +44,7 @@ public class HiMethodTest {
   public void inValidUsernameTest(String[] usernames) {
     for (String username : usernames) {
       String invalid = HiMethod.integerCommand(username);
-      Assert.assertEquals("Нет такого имени", invalid);
+      Assert.assertEquals("РќРµС‚ С‚Р°РєРѕРіРѕ РёРјРµРЅРё", invalid);
     }
   }
 }
