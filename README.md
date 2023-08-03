@@ -1,52 +1,52 @@
-Задание 1: HiMethod
-Задание 2: HiMethodSimple
-Задание 3: OutPutArrayMethod
+<h2> Задание 1: HiMethod </h2>
+<h2> Задание 2: HiMethodSimple </h2> 
+<h2> Задание 3: OutPutArrayMethod </h2>
 
 
-Задание 4: 
-- Нет нельзя. Вместо предпоследней квадратной скобки следует поставитиь закрывающую круглую.
-- Ниже - код, проверящий правильность решения:
+<h2> Задание 4: </h2>
+<p> - Нет нельзя. Вместо предпоследней квадратной скобки следует поставитиь закрывающую круглую.
+<p>- Ниже - код, проверящий правильность решения:
 
 
-`
-import java.util.Deque;
-import java.util.LinkedList;
-import java.util.Scanner;
 
-public class Main {
+<p>import java.util.Deque;
+<p>import java.util.LinkedList;
+<p>import java.util.Scanner;
 
-static boolean areBalanced(String s) {
-final var stack = new LinkedList<Character>();
-final var n = s.length();
-for (var i = 0; i < n; i++) {
-final var ch = s.charAt(i);
-switch (ch) {
-case '(':
+<p>public class Main {
+
+<p>static boolean areBalanced(String s) {
+<p>final var stack = new LinkedList<Character>();
+<p>final var n = s.length();
+<p>for (var i = 0; i < n; i++) {
+<p>final var ch = s.charAt(i);
+<p>switch (ch) {
+<p>case '(':
 stack.push(')');
 break;
-case '[':
+<p>case '[':
 stack.push(']');
 break;
-case '{':
+<p>case '{':
 stack.push('}');
 break;
-case ')':
-case ']':
-case '}':
-if (stack.isEmpty()) {
+<p> case ')':
+<p> case ']':
+<p> case '}':
+<p>if (stack.isEmpty()) {
 return false;
 }
-final char top = stack.pop();
-if (top != ch) {
-return false;
+<p> final char top = stack.pop();
+<p>if (top != ch) {
+<p>return false;
 }
 }
 }
-return stack.isEmpty();
+<p>return stack.isEmpty();
 }
 
-public static void main(String[] args) {
-System.out.println(areBalanced("[((())()(()))]"));
+<p>public static void main(String[] args) {
+<p>System.out.println(areBalanced("[((())()(()))]"));
 }
 }
-`
+
