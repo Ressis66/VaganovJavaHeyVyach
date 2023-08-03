@@ -1,5 +1,5 @@
-<h2> Задание 1: HiMethod </h2>
-<h2> Задание 2: HiMethodSimple </h2> 
+<h2> Задание 1: HiMethodSimple </h2>
+<h2> Задание 2: HiMethod </h2> 
 <h2> Задание 3: OutPutArrayMethod </h2>
 
 
