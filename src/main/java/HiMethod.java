@@ -12,7 +12,7 @@ public class HiMethod {
 
     try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
       String parsedNumber = br.readLine();
-      integerCommand(parsedNumber);
+      System.out.println(integerCommand(parsedNumber));
 
     } catch (IOException ex) {
       ex.printStackTrace();

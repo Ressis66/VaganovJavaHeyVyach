@@ -14,7 +14,7 @@ public class HiMethodSimple {
     try(BufferedReader br = new BufferedReader(new InputStreamReader(System.in)))
     {
       int parsedNumber = Integer.parseInt(br.readLine());
-      integerCommand(parsedNumber);
+      System.out.println(integerCommand(parsedNumber));
 
     }
     catch(IOException ex){

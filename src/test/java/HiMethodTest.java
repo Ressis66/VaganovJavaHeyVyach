@@ -5,11 +5,6 @@ import org.testng.annotations.Test;
 
 public class HiMethodTest {
 
-  @BeforeClass
-  public void setUpClass() throws Exception {
-    new HiMethod();
-  }
-
   @DataProvider
   public Object[][] validUsernameProvider() {
     return new Object[][]{
